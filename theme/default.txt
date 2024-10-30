@@ -1,0 +1,151 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title><-BlogAndPostTitle-></title>
+<style>
+body {color:#444;background-color:#eee;text-align:center;margin:20px 0 30px;font-family: Tahoma; font-size: 8pt;}
+a:link{color:#2277DD;text-decoration:none;}
+a:visited  {color:#2277DD;text-decoration:none;}
+a:hover{color:Red;text-decoration:none;}
+.page{background:#fff;text-align:left;margin:20px auto;padding:10px;width:750px;}
+.header{padding:0;margin:0;position:relative;height:110px;background:#38c;width:750px}
+.header h1{position:relative;font-family: Arial;font-size: 18pt; font-weight: bold;color:white;text-align:center;padding-top:40px;margin-bottom:10px;margin:0px}
+.header A:link{font-family: Arial; font-size: 18pt; font-weight: bold;color:white;text-decoration:none}
+.header A:hover{font-family: Arial; font-size: 18pt; font-weight: bold;color:white;text-decoration:none}
+.header A:visited  {font-family: Arial; font-size: 18pt; font-weight: bold;color:white;text-decoration:none}
+.header .subtitle {color:white;font-family: Tahoma; font-size: 9pt;text-align:center;margin-top:0px;}
+.bodyposts{float: right;text-align: right;padding-right:3px;width:520px;background-color:white}
+.sidebar{float: left;background-color:white;width:180px;;background-color:white;font-family: Tahoma; font-size: 8pt;text-align:right;line-height:1.5em;}
+.sidebar  h3{margin-bottom:3px;margin-top:0px;font-family: Tahoma;font-size: 8pt;font-weight: 600;}
+.post .hl{font-size: 9pt;font-family: Tahoma;color:blank;margin-bottom:5px}
+.post .hl A:link{font-size: 9pt;font-family: Tahoma; font-weight: bold;text-decoration:none;color:navy}
+.post .hl A:hover{font-size: 9pt;font-family: Tahoma; font-weight: bold;text-decoration:none;color:blue}
+.post .hl A:visited  {font-size: 9pt;font-family: Tahoma; font-weight: bold;text-decoration:none;color:navy}
+.post .cnt{font-family: Tahoma;color:blank; font-size: 9pt;line-height:1.5em;}
+.post .info{font-family: Tahoma; color:#6F6F6F;margin-top:10px;font-size: 7pt;}
+.post .info A{font-size: 8pt;}
+.profile{line-height:1.5em;text-align: justify}
+.profile img{margin:2px}
+</style>
+</head>
+<body>
+
+<div class="page" dir="rtl" >
+	<div  class ="header" >
+		<a href="<-BlogUrl->"><h1><-BlogTitle-></h1></a>
+		<p class="subtitle"><-BlogDescription-></p>
+	</div>
+	<div style="width:100%;height:12px;font-family: Tahoma; font-size: 4pt;"></div>
+	<!-- end header -->
+	<div style="background-color:white;">
+	<div class="bodyposts">
+<BLOGFA>
+	<div class="post">
+	    <a name="<-PostId->"></a>
+		<h2 class="hl"><a href="<-PostLink->"><-PostTitle-></a></h2>
+		<div class="cnt"><-PostContent-><BlogPostTagsBlock><br>برچسب‌ها: <BlogPostTags separator=", "><a href="<-TagLink->"><-TagName-></a></BlogPostTags></BlogPostTagsBlock><BlogExtendedPost><br><a href="<-PostLink->">ادامه مطلب</a></BlogExtendedPost></div>
+		<div class ="info"><a href="<-PostLink->">+</a>&nbsp;نوشته شده در &nbsp;<-PostDate->ساعت&nbsp;<-PostTime->&nbsp توسط&nbsp;<-PostAuthor->&nbsp;
+		<BlogComment>
+		  |&nbsp; <span dir="rtl" > <script type="text/javascript">GetBC(<-PostId->);</script>  </span>
+        </BlogComment>
+        </div>
+	</div>
+	<hr size =1 color =#E8E8E8 style="margin-bottom:5px;margin-top:5px">
+</BLOGFA>
+	<!-- end post -->
+
+<BlogNextAndPreviousBlock>
+<div style="width:100%">
+<BlogPreviousPageBlock>
+<div style="width:49%;float:right"><a href="<-BlogPreviousPageLink->">مطالب جدیدتر</a></div>
+</BlogPreviousPageBlock>
+<BlogNextPageBlock>
+<div style="width:49%;float:left;text-align:left"><a href="<-BlogNextPageLink->">مطالب قدیمی‌تر</a></div>
+</BlogNextPageBlock>
+</div>
+</BlogNextAndPreviousBlock>
+
+	</div>
+	<!-- end content -->
+	<div class="sidebar">
+
+   	<BlogProfile>
+    <div class="profile">
+ 	<div style="text-align: justify"  >
+    <BlogPhoto>	<div align=center > <img src="<-BlogPhotoLink->" >   </div>    </BlogPhoto>
+	 <-BlogAbout->
+    </div>  
+    <hr size =1 color =#E8E8E8 style="margin-bottom:3px;margin-top:3px">
+ 
+    </BlogProfile>
+    
+ <a href="<-BlogUrl->">صفحه نخست</a><br>
+<BlogProfileLinkBlock><a href="<-BlogProfileLink->">پروفایل مدیر وبلاگ</a><br></BlogProfileLinkBlock>
+<a href="mailto:<-BlogEmail->">پست الکترونیک</a><br>
+<a href="<-BlogArchiveLink->">آرشیو وبلاگ</a><br>
+<a href="/posts/">عناوین مطالب وبلاگ</a><br>
+<hr size =1 color =#E8E8E8 style="margin-bottom:3px;margin-top:3px">
+
+    <BlogLinkDumpBlock>
+	 <h3>پیوندهای روزانه</h3>
+	 <BlogLinkDump>
+			<a href="<-LinkUrl->" target="_blank" title="<-LinkDescription->" ><-LinkTitle-></a><br>
+	 </BlogLinkDump>
+	<a href="javascript:void(0)" onclick ="OpenLD();">آرشیو پیوندهای روزانه</a>
+	 <hr size =1 color =#E8E8E8 style="margin-bottom:3px;margin-top:3px">
+  </BlogLinkDumpBlock>	
+	
+	<h3>نوشته های پیشین</h3>
+	<BlogArchive>
+		<a href="<-ArchiveLink->"><-ArchiveTitle-></a><br>
+	</BlogArchive>
+	<hr size=1 color=#E8E8E8 style="margin-bottom:3px;margin-top:3px">
+	
+
+    <BlogCategoriesBlock>
+	 <h3>آرشیو موضوعی</h3>
+	 <BlogCategories>
+			<a href="<-CategoryLink->"   ><-CategoryName-></a><br>
+	</BlogCategories>
+	<hr size =1 color =#E8E8E8 style="margin-bottom:3px;margin-top:3px">
+	</BlogCategoriesBlock><BlogTagsBlock>
+	 <h3>برچسب‌ها</h3>
+	 <BlogTags>
+			<a href="<-TagLink->"><-TagName-></a> <span dir="rtl">(<-TagCount->)</span><br>
+	</BlogTags>
+	<hr size =1 color =#E8E8E8 style="margin-bottom:3px;margin-top:3px">
+	</BlogTagsBlock>		
+	
+    <BlogAuthorsBlock>
+	 <h3>نویسندگان</h3>
+	  <BlogAuthors>
+			<a href="<-AuthorLink->"   ><-AuthorName-></a><br>
+	  </BlogAuthors>
+	<hr size =1 color =#E8E8E8 style="margin-bottom:3px;margin-top:3px">
+	</BlogAuthorsBlock>	
+	
+	<BlogLinksBlock>
+	 <h3>پیوندها</h3>
+	 <BlogLinks>
+			<a href="<-LinkUrl->" target="_blank" ><-LinkTitle-></a><br>
+	</BlogLinks>
+	 <hr size =1 color =#E8E8E8 style="margin-bottom:3px;margin-top:3px">
+	</BlogLinksBlock>
+	
+    <div align="center">
+    	<a style="color: #FFFFFF; text-decoration: none; font-family: Arial; font-size: 8pt; border: 1px solid #FF9955;  background-color: #FF6600" href="<-BlogXmlLink->">&nbsp;RSS&nbsp;</a></p>
+    </div>
+    <br>	
+	<div align="center"><-BlogCustomHtml-></div>
+	
+</div>
+	<!-- end sidebar -->
+</div>
+	
+	<div style="clear: both;">&#160;</div>
+
+</div>
+
+</body>
+
+</html>

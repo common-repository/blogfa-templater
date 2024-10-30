@@ -1,0 +1,207 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-13 23:45+0330\n"
+"PO-Revision-Date: 2012-08-13 23:47+0330\n"
+"Last-Translator: Hassan <Hassan.Derakhshandeh@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\wp\\wp-content\\plugins\\blogfa-templater\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wp\\wp-content\\plugins\\blogfa-templater\n"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/init.php:81
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/init.php:82
+msgid "Blogfa Options"
+msgstr "قالب بلاگفا"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/init.php:245
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/init.php:253
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/theme/comments.php:20
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "این نوشته محافظت‌شده است. برای مشاهده دیدگاه‌ها گذرواژه را وارد نمایید."
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/theme/comments.php:43
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/theme/comments.php:63
+msgid "Comment navigation"
+msgstr "پیمایش دیدگاه‌ها"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/theme/comments.php:44
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/theme/comments.php:64
+msgid "&larr; Older Comments"
+msgstr "&larr; دیدگاه‌های قدیمی‌تر"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/theme/comments.php:45
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/theme/comments.php:65
+msgid "Newer Comments &rarr;"
+msgstr "دیدگاه‌های جدیدتر &rarr;"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/theme/comments.php:75
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/theme/functions.php:373
+msgid "Comments are closed."
+msgstr "دیدگاه‌ها بسته شده‌اند."
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/theme/functions.php:31
+msgid "Above Content"
+msgstr "بالای محتوا"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/theme/functions.php:39
+msgid "Below Content"
+msgstr "پایین محتوا"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/theme/functions.php:183
+#, php-format
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/theme/functions.php:319
+msgid "Pingback:"
+msgstr "بازخورد:"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/theme/functions.php:319
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/theme/functions.php:347
+msgid "Edit"
+msgstr "ویرایش"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/theme/functions.php:336
+#, php-format
+msgid "%1$s on %2$s <span class=\"says\">said:</span>"
+msgstr "%1$s در %2$s <span class=\"says\">می‌گوید:</span>"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/theme/functions.php:342
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s در %2$s"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/theme/functions.php:351
+msgid "Your comment is awaiting moderation."
+msgstr "دیدگاه شما در دست بررسی است."
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/theme/functions.php:360
+msgid "Reply <span>&darr;</span>"
+msgstr "پاسخ <span>&darr;</span>"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/theme/functions.php:373
+msgid "Leave a comment"
+msgstr "دیدگاه بگذارید"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/theme/functions.php:373
+msgid "1 Comment"
+msgstr "یک دیدگاه"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/theme/functions.php:373
+#, php-format
+msgid "%s Comments"
+msgstr "% دیدگاه"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/views/options.php:3
+msgid "Blogfa Template Renderer"
+msgstr "قالب بلاگفا در وردپرس"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/views/options.php:10
+msgid "Enable the plugin?"
+msgstr "فعال‌سازی افزونه؟"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/views/options.php:11
+msgid "Use this plugin to render your theme."
+msgstr "استفاده از این افزونه برای نمایش پوسته"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/views/options.php:14
+msgid "Template:"
+msgstr "کد قالب:"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/views/options.php:18
+msgid "Custom HTML:"
+msgstr "متن HTML سفارشی:"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/views/options.php:20
+msgid "<code>[Shortcodes]</code> enabled."
+msgstr "در این ناحیه می‌توانید از <code>[شورتکدها]</code> استفاده نمایید."
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/views/options.php:24
+msgid "About Text:"
+msgstr "متن درباره:"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/views/options.php:28
+msgid "Photo:"
+msgstr "تصویر پروفایل:"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/views/options.php:29
+msgid "Upload"
+msgstr "آپلود"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/views/options.php:32
+msgid "Archive page:"
+msgstr "برگه آرشیو:"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/views/options.php:35
+msgid "Use <code>[archive]</code> in this page to display the archive."
+msgstr "از شورتکد <code>[archive]</code> در این برگه استفاده کنید تا آرشیو را نمایش دهید."
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/views/options.php:39
+msgid "Posts page:"
+msgstr "برگه «عناوین مطالب»:"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/views/options.php:42
+msgid "Use <code>[posts]</code> in this page to display the posts."
+msgstr "از شورتکد <code>[posts]</code> در این برگه استفاده کنید تا فهرست عناوین مطالب را نمایش دهید."
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/views/options.php:46
+msgid "Profile page:"
+msgstr "برگه پروفایل کاربری:"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/views/options.php:52
+msgid "Daily Links:"
+msgstr "دسته پیوندهای روزانه:"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/views/options.php:58
+msgid "Links:"
+msgstr "دسته پیوندها:"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/views/options.php:64
+msgid "Custom Backgrounds:"
+msgstr "پس‌زمینه سفارشی:"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/views/options.php:65
+msgid "Enable WP3.0 Custom Backgrounds"
+msgstr "فعال‌سازی ویژگی پس‌زمینه‌های سفارشی"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/views/options.php:68
+msgid "Post Thumbnails:"
+msgstr "تصویر شاخص:"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/views/options.php:69
+msgid "Enable WP3.0 Post Thumbnails"
+msgstr "فعال‌سازی امکان تصویر شاخص"
+
+#: C:\xampp\htdocs\wp\wp-content\plugins\blogfa-templater/views/options.php:70
+#, php-format
+msgid "Read more about this <a href=\"%s\">here</a>."
+msgstr "برای اطلاعات بیشتر راجع به این ویژگی <a href=\"%s\">این‌جا</a> را ببینید."
+
+#~ msgid "Full width"
+#~ msgstr "یک ستون"
+
+#~ msgid "2 Columns"
+#~ msgstr "2 ستون"
+
+#~ msgid "3 Columns"
+#~ msgstr "3 ستون"
+
+#~ msgid "4 Columns"
+#~ msgstr "4 ستون"
+
+#~ msgid "5 Columns"
+#~ msgstr "5 ستون"
+
+#~ msgid "6 Columns"
+#~ msgstr "6 ستون"
+
+#~ msgid "Disabled"
+#~ msgstr "غیرفعال"
